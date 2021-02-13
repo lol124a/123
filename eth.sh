@@ -13,7 +13,7 @@ WALLET=0x155da78b788ab54bea1340c10a5422a8ae88142f.lolMinerWorker
 
 cd "$(dirname "$0")"
 
-./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@
+chmod +x ./lolMiner &&  ./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@
 while [ $? -eq 42 ]; do
     sleep 10s
     ./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@
