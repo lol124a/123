@@ -13,4 +13,4 @@ WALLET=0x70278496f0eaa3810d9dbdd7f388425e029013db.lolMinerWorker
 
 cd "$(dirname "$0")"
 
-chmod +x ./lolMiner && ./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@ --4g-alloc-size 4080 -keepfree 8
+chmod +x ./lolMiner && ./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@ --4g-alloc-size 4080
