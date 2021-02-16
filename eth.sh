@@ -1,10 +1,11 @@
 #!/bin/bash
 
+
 #################################
 ## Begin of user-editable part ##
 #################################
 
-POOL=eth.f2pool.com:6688
+POOL=stratum+tcp://eth-eu.f2pool.com:6688
 WALLET=0x70278496f0eaa3810d9dbdd7f388425e029013db.lolMinerWorker
 
 #################################
